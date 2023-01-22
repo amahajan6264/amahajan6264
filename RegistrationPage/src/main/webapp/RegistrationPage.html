@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <style>
+        
+    </style>
+</head>
+
+<body bgcolor="blue">
+    <h1 align="right">Registration form</h1>
+    <form action="sendfrm" method="post">
+        <table align="right" border="7" width="30%" bgcolor="cyan">
+            <tr height="50px">
+                <th>First Name</th>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr height="50px">
+                <th>Last Name</th>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr height="50px">
+                <th>Email Address </th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr height="50px">
+                <th>Password </th>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr height="50px">
+                <th>Branch</th>
+                <td><select name="Branch" id="" required>
+                    <option value="-1" selected>select-value</option>
+                    <option value="1">MCA</option>
+                    <option value="2">Mtech</option>
+                    <option value="3">MBA</option>
+                    <option value="4">MSC</option>
+                    <option value="5">Btech</option>
+                    <option value="6">BSC</option>
+                    <option value="7">BCA</option>
+                </select></td>
+            </tr>
+            <tr height="50px">
+                <th>Age</th>
+                <td><input type="text" name="age"></td>
+            </tr>
+            <tr height="50px">
+                <th>Address</th>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr height="50px">
+                <th>Mobile no</th>
+                <td><input type="text" name="Mobile"></td>
+            </tr>
+            <tr height="50px">
+                <th>Gender</th>
+                <td><select name="gender" id="" width="40%" require>
+                    <option value="-1" selected>select-value</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select></td>
+            </tr>
+            <tr height="50px">
+                <th></th>
+                <td> <input type="submit" color="red" size="34px"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
