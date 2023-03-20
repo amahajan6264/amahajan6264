@@ -3,6 +3,5 @@
   <display-name>SendRedirctionApp</display-name>
   <welcome-file-list>
     <welcome-file>search.html</welcome-file>
-    
   </welcome-file-list>
 </web-app>

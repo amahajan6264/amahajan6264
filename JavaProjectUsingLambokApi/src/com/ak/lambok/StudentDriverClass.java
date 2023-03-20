@@ -1,9 +1,7 @@
 package com.ak.lambok;
 
 public class StudentDriverClass {
-	public static void m
-
-	ain(String[] args) {
+	public static void main(String[] args) {
 		StudentBean sb = new StudentBean();
 		sb.setStduentName("Akshay");
 		// System.out.println(sb.getStduentName());

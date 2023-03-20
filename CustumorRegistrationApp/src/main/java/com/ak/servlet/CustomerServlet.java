@@ -73,16 +73,16 @@ public class CustomerServlet extends HttpServlet {
 			String jndiName = getServletConfig().getInitParameter("DsJndi");
 			ds = (DataSource) ic.lookup(jndiName);
 		} catch (NamingException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-			System.out.println("Erro with getting connection at time of  lookup operation");
+			// e1.printStackTrace();
+			System.out.println("Error with getting connection at time of  lookup operation");
 		}
 
 		try {
 			con = ds.getConnection();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
+
 			System.out.print("Error with getting connection get ");
 		}
 		return con;

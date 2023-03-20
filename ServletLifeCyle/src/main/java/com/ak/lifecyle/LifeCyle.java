@@ -3,7 +3,6 @@ package com.ak.lifecyle;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/url")
 public class LifeCyle extends HttpServlet {
 	@Override
-	public void init(ServletConfig config) throws ServletException {
+	public void init() throws ServletException {
 		System.out.println("lifeCyle : init(config)");
 	}
 
